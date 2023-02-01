@@ -3,151 +3,74 @@
 /*===== Font =====*/
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-thin.eot');
-    src: url('../font/notokr-thin.eot?#iefix') format('embedded-opentype'),
-			url('../font/notokr-thin.woff2') format('woff2'), 
-			url('../font/notokr-thin.woff') format('woff'), 
-			url('../font/notokr-thin.svg#notokr-thin') format('svg');
+    src: url('font/notokr-thin.eot');
+    src: url('font/notokr-thin.eot?#iefix') format('embedded-opentype'),
+			url('font/notokr-thin.woff2') format('woff2'), 
+			url('font/notokr-thin.woff') format('woff'), 
+			url('font/notokr-thin.svg#notokr-thin') format('svg');
     font-weight: 100;
     font-style: normal
 }
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-light.eot');
-    src: url('../font/notokr-light.eot?#iefix') format('embedded-opentype'), 
-			url('../font/notokr-light.woff2') format('woff2'), 
-			url('../font/notokr-light.woff') format('woff'), 
-			url('../font/notokr-light.svg#notokr-light') format('svg');
+    src: url('font/notokr-light.eot');
+    src: url('font/notokr-light.eot?#iefix') format('embedded-opentype'), 
+			url('font/notokr-light.woff2') format('woff2'), 
+			url('font/notokr-light.woff') format('woff'), 
+			url('font/notokr-light.svg#notokr-light') format('svg');
     font-weight: 200;
     font-style: normal
 }
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-demilight.eot');
-    src: url('../font/notokr-demilight.eot?#iefix') format('embedded-opentype'), 
-			url('../font/notokr-demilight.woff2') format('woff2'), 
-			url('../font/notokr-demilight.woff') format('woff'), 
-			url('../font/notokr-demilight.svg#notokr-demilight') format('svg');
+    src: url('font/notokr-demilight.eot');
+    src: url('font/notokr-demilight.eot?#iefix') format('embedded-opentype'), 
+			url('font/notokr-demilight.woff2') format('woff2'), 
+			url('font/notokr-demilight.woff') format('woff'), 
+			url('font/notokr-demilight.svg#notokr-demilight') format('svg');
     font-weight: 300;
     font-style: normal
 }
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-regular.eot');
-    src: url('../font/notokr-regular.eot?#iefix') format('embedded-opentype'), 
-			url('../font/notokr-regular.woff2') format('woff2'), 
-			url('../font/notokr-regular.woff') format('woff'), 
-			url('../font/notokr-regular.svg#notokr-regular') format('svg');
+    src: url('font/notokr-regular.eot');
+    src: url('font/notokr-regular.eot?#iefix') format('embedded-opentype'), 
+			url('font/notokr-regular.woff2') format('woff2'), 
+			url('font/notokr-regular.woff') format('woff'), 
+			url('font/notokr-regular.svg#notokr-regular') format('svg');
     font-weight: 400;
     font-style: normal
 }
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-medium.eot');
-    src: url('../font/notokr-medium.eot?#iefix') format('embedded-opentype'), 
-			url('../font/notokr-medium.woff2') format('woff2'), 
-			url('../font/notokr-medium.woff') format('woff'), 
-			url('../font/notokr-medium.svg#notokr-medium') format('svg');
+    src: url('font/notokr-medium.eot');
+    src: url('font/notokr-medium.eot?#iefix') format('embedded-opentype'), 
+			url('font/notokr-medium.woff2') format('woff2'), 
+			url('font/notokr-medium.woff') format('woff'), 
+			url('font/notokr-medium.svg#notokr-medium') format('svg');
     font-weight: 500;
     font-style: normal
 }
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-bold.eot');
-    src: url('../font/notokr-bold.eot?#iefix') format('embedded-opentype'), 
-			url('../font/notokr-bold.woff2') format('woff2'), 
-			url('../font/notokr-bold.woff') format('woff'), 
-			url('../font/notokr-bold.svg#notokr-bold') format('svg');
+    src: url('font/notokr-bold.eot');
+    src: url('font/notokr-bold.eot?#iefix') format('embedded-opentype'), 
+			url('font/notokr-bold.woff2') format('woff2'), 
+			url('font/notokr-bold.woff') format('woff'), 
+			url('font/notokr-bold.svg#notokr-bold') format('svg');
     font-weight: 600;
     font-style: normal
 }
 @font-face {
     font-family: 'notokr';
-    src: url('../font/notokr-black.eot');
-    src: url('../font/notokr-black.eot?#iefix') format('embedded-opentype'), 
-			url('../font/notokr-black.woff2') format('woff2'), 
-			url('../font/notokr-black.woff') format('woff'),
-			url('../font/notokr-black.svg#notokr-black') format('svg');
+    src: url('font/notokr-black.eot');
+    src: url('font/notokr-black.eot?#iefix') format('embedded-opentype'), 
+			url('font/notokr-black.woff2') format('woff2'), 
+			url('font/notokr-black.woff') format('woff'),
+			url('font/notokr-black.svg#notokr-black') format('svg');
     font-weight: 700;
     font-style: normal
 }
-/*HyundaiSansTextKR*/
-@font-face {
-    font-family:'HyundaiSansTextKRRegular';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../font/HyundaiSansTextKRRegular.eot'),
-            url('../font/HyundaiSansTextKRRegular.woff'), 
-            url('../font/HyundaiSansTextKRRegular.woff2'), 
-            url('../font/HyundaiSansTextKRRegular.ttf');
-}
-@font-face {
-    font-family:'HyundaiSansTextKRMedium';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../font/HyundaiSansTextKRMedium.eot'),
-            url('../font/HyundaiSansTextKRMedium.woff'),
-            url('../font/HyundaiSansTextKRMedium.woff2'),
-            url('../font/HyundaiSansTextKRMedium.ttf');
-}
-@font-face {
-    font-family:'HyundaiSansTextKRBold';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../font/HyundaiSansTextKRBold.eot'),
-            url('../font/HyundaiSansTextKRBold.woff'),
-            url('../font/HyundaiSansTextKRBold.woff2'),
-            url('../font/HyundaiSansTextKRBold.ttf');
-}
-/*HyundaiSansHeadKR*/
-@font-face {
-    font-family:'HyundaiSansHeadKRLight';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../font/HyundaiSansHeadKRLight.eot'),
-            url('../font/HyundaiSansHeadKRLight.woff'), 
-            url('../font/HyundaiSansHeadKRLight.woff2'), 
-            url('../font/HyundaiSansHeadKRLight.ttf');
-}
-@font-face {
-    font-family:'HyundaiSansHeadKRRegular';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../font/HyundaiSansHeadKRRegular.eot'),
-            url('../font/HyundaiSansHeadKRRegular.woff'), 
-            url('../font/HyundaiSansHeadKRRegular.woff2'), 
-            url('../font/HyundaiSansHeadKRRegular.ttf');
-}
-@font-face {
-    font-family:'HyundaiSansHeadKRMedium';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../font/HyundaiSansHeadKRMedium.eot'),
-            url('../font/HyundaiSansHeadKRMedium.woff'),
-            url('../font/HyundaiSansHeadKRMedium.woff2'),
-            url('../font/HyundaiSansHeadKRMedium.ttf');
-    }
-@font-face {
-    font-family:'HyundaiSansHeadKRBold';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../font/HyundaiSansHeadKRBold.eot'),
-            url('../font/HyundaiSansHeadKRBold.woff'),
-            url('../font/HyundaiSansHeadKRBold.woff2'),
-            url('../font/HyundaiSansHeadKRBold.ttf');
-}
-/*폰트굵기별 font-family *HyundaiSansTextKR*
-font-family: '현대산스 Text 보통', '현대산스 Text', 'HyundaiSansTextKRRegular', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-font-family: '현대산스 Text 중간', '현대산스 Text Medium', 'HyundaiSansTextKRMedium', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-font-family: '현대산스 Text 굵게', '현대산스 Text Bold', 'HyundaiSansTextKRBold', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-*/
-/*폰트굵기별 font-family *HyundaiSansHeadKR*
-font-family: '현대산스 Head 가늘게', '현대산스 Head Light', 'HyundaiSansHeadKRLight', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-font-family: '현대산스 Head 보통', '현대산스 Head', 'HyundaiSansHeadKRRegular', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-font-family: '현대산스 Head 중간', '현대산스 Head Medium', 'HyundaiSansHeadKRMedium', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-font-family: '현대산스 Head 굵게', '현대산스 Head Bold', 'HyundaiSansHeadKRBold', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-*/  
-
 html, body, ul, ol, li, dl, dt, dd, form, fieldset, legend, label, input, section, article, aside, span, p, 
 nav, h1, h2, h3, h4, h5, h6, img, figure, figcaption, table, colgroup, thead, tbody, th, tr, td, 
 select, option, div, time, caption, a, header, footer, button{margin:0; padding:0; box-sizing:border-box;}
