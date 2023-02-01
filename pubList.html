@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>현대그린푸드 디자인 목록</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="pub.css"><!--공통-->
+    <style type="text/css">
+            /*Just pubList*/
+        .pub-list-wrap{width:100%; min-width:1280px; position:relative; padding:40px;}
+        .pub-list-wrap .tit{font-size:24px; font-weight:600; margin-bottom:30px;}
+        .pub-list-wrap .tit .desc{font-size:14px; line-height:1.5; display:block; color:#777; font-weight:400; margin-top:15px;}
+        .pub-list-wrap table{border-collapse:collapse; table-layout:fixed;}
+        .pub-list-wrap table *, .pub-list-wrap table th, .pub-list-wrap table td{font-size:13px; font-weight:400;}
+        .pub-list-wrap table th{padding:5px 5px; text-align:center; background:#f1f1f1; height:30px; font-weight:500; border-top:1px solid #cccccc; border-left:1px solid #cccccc; border-right:1px solid #cccccc;}
+        .pub-list-wrap table td{padding:5px 10px; border:1px solid #cccccc;}
+        .pub-list-wrap table td.edit-date{color:#f01515;}
+        .pub-list-wrap table td > a{text-decoration:underline; color:#1b76ff;}
+		.pub-list-wrap table tr:hover{background:#fffbd3;}
+
+        .pub-list-wrap .tab-wrap {width:100%; position:relative;}
+        .pub-list-wrap .tab-list {box-sizing: border-box; -webkit-box-sizing: border-box;}
+        .pub-list-wrap .tab-list:after{content: ""; clear: both; display: table;}
+        .pub-list-wrap .tab-list li {float: left; border: 1px solid #cccccc;margin-left: -1px;}
+        .pub-list-wrap .tab-list li a {display: block; height: 40px; line-height: 40px; text-decoration: none;}
+        .pub-list-wrap .tab-list li a span {display: block; height: 40px; line-height: 40px; padding: 0 40px; color: #000000;}
+        .pub-list-wrap .tab-list li.active span {color: #fff; background-color: #1A392F;}
+        .pub-list-wrap .tab-item {display: none; margin-top: 20px;}
+        .pub-list-wrap .tab-item.active{display: block;}
+		.pub-list-wrap ul.publist-dotted-list{position:relative; width:100%;}
+		.pub-list-wrap ul.publist-dotted-list > li{position:relative; padding-left:8px;}
+		.pub-list-wrap ul.publist-dotted-list > li:before,
+		.pub-list-wrap ul.publist-dotted-list > li::before{content:''; width:3px; height:3px; position:absolute; top:8px; left:0; border-radius:100px; background:#000;}
+    </style>
+    <script src="jquery-latest.min.js"></script>
+    <script>
+        // Just pubList
+        $(document).on('click', '.tab-list li a', function() {
+            var $this = $(this),
+                $tabList = $this.parents('ul'),
+                _idx = $this.closest('li').index();
+            
+            $tabList.children().eq(_idx).addClass('active').siblings().removeClass('active');
+            $tabList.next().children().eq(_idx).addClass('active').siblings().removeClass('active');
+        });
+
+    </script>
+
+    
+</head>
+<body>
+    <!--pub-list-wrap-->
+	<div class="pub-list-wrap">
+		<p class="tit">현대그린푸드 디자인 리스트<span class="desc">디자인 화면 확인을 위한 목록입니다.</span></p>
+		<!--tab-wrap-->
+		<div class="tab-wrap">
+			<!--tab-list-->
+			<ul class="tab-list">
+				<li class="active"><a href="javascript:;"><span>스타일 A</span></a></li>
+				<li><a href="javascript:;"><span>스타일 B</span></a></li>
+			</ul>
+			<!--// tab-list-->
+			<!--tab-items-->
+			<div class="tab-items">
+				<!--tab-item-->
+				<div class="tab-item active">
+					<table>
+						<caption>전체 탭 목록 테이블</caption>
+						<colgroup>
+							<col style="width:180px;">
+							<col>
+							<col>
+							<col style="width:250px;">
+							<col style="width:100px;">
+							<col style="width:100px;">
+							<col style="width:350px;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>1Depth</th>
+								<th>2Depth</th>
+								<th>3Depth</th>
+								<th>경로</th>
+								<th>완료일</th>
+								<th>수정일</th>
+								<th>비고</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="5">메인</td>
+								<td>메인</td>
+								<td></td>
+								<td><a href="page/메인_A.html" target="_blank">메인_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>GNB</td>
+								<td></td>
+								<td><a href="page/GNB_A.html" target="_blank">GNB_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>마이페이지</td>
+								<td></td>
+								<td><a href="page/마이페이지_A.html" target="_blank">마이페이지_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>메뉴</td>
+								<td></td>
+								<td><a href="page/메뉴_A.html" target="_blank">메뉴_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>식사기록</td>
+								<td></td>
+								<td><a href="page/식사기록_A.html" target="_blank">식사기록_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td rowspan="3">카페</td>
+								<td>카페시안</td>
+								<td></td>
+								<td><a href="page/카페시안_A.html" target="_blank">카페시안_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>메뉴상세</td>
+								<td></td>
+								<td><a href="page/메뉴상세_A.html" target="_blank">메뉴상세_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>결제하기</td>
+								<td></td>
+								<td><a href="page/결제하기_A.html" target="_blank">결제하기_A.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!--// tab-item-->
+				<!--tab-item-->
+				<div class="tab-item">
+					<table>
+						<caption>전체 탭 목록 테이블</caption>
+						<colgroup>
+							<col style="width:180px;">
+							<col>
+							<col>
+							<col style="width:250px;">
+							<col style="width:100px;">
+							<col style="width:100px;">
+							<col style="width:350px;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>1Depth</th>
+								<th>2Depth</th>
+								<th>3Depth</th>
+								<th>경로</th>
+								<th>완료일</th>
+								<th>수정일</th>
+								<th>비고</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="5">메인</td>
+								<td>메인</td>
+								<td></td>
+								<td><a href="page/메인_B.html" target="_blank">메인_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>GNB</td>
+								<td></td>
+								<td><a href="page/GNB_B.html" target="_blank">GNB_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>마이페이지</td>
+								<td></td>
+								<td><a href="page/마이페이지_B.html" target="_blank">마이페이지_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>메뉴</td>
+								<td></td>
+								<td><a href="page/메뉴_B.html" target="_blank">메뉴_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>식사기록</td>
+								<td></td>
+								<td><a href="page/식사기록_B.html" target="_blank">식사기록_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td rowspan="3">카페</td>
+								<td>카페시안</td>
+								<td></td>
+								<td><a href="page/카페시안_B.html" target="_blank">카페시안_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>메뉴상세</td>
+								<td></td>
+								<td><a href="page/메뉴상세_B.html" target="_blank">메뉴상세_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>결제하기</td>
+								<td></td>
+								<td><a href="page/결제하기_B.html" target="_blank">결제하기_B.html</a></td>
+								<td class="txt-c"></td>
+								<td class="txt-c edit-date"></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!--// tab-item-->
+
+
+			</div>
+			<!--// tab-items-->
+		</div>
+		<!--// tab-wrap-->
+	</div>
+	<!--// pub-list-wrap-->
+
+
+</body>
+</html>
